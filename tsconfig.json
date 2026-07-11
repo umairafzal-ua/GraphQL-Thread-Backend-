@@ -35,5 +35,10 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "prisma.config.ts" // Yeh line add kar dein
+  ]
 }
